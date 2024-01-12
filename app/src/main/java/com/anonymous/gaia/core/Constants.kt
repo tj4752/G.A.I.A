@@ -13,8 +13,8 @@ const val CHAT_SCREEN_ROUTE = "chat"
 //Firestore
 const val QUESTIONS = "bittensor-queries"
 const val PROMPT = "prompt"
-const val ADDED_AT = "creationTime"
-const val ADDED_BY = "createdBy"
+const val CREATED_AT = "creationTime"
+const val CREATED_BY = "createdBy"
 
 //Arguments
 const val NAME = "name"

@@ -6,7 +6,7 @@ import java.util.Date
 data class Question(
     var prompt: String? = null,
     @ServerTimestamp
-    var addedAt: Date? = null,
-    var addedBy: String? = null,
+    var creationTime: Date? = null,
+    var createdBy: String? = null,
     var response: String? = null,
 )
